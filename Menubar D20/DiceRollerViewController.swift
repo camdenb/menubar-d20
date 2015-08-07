@@ -12,6 +12,7 @@ class DiceRollerViewController: NSViewController {
     
     var result: Int = 0
     var resultsArray: [Int] = []
+
     
     var currentNumberOfSides = 20
     var currentNumberOfTimes = 1
@@ -42,19 +43,43 @@ class DiceRollerViewController: NSViewController {
         resultsPopover = NSPopover()
         resultsViewController = DiceResultsViewController()
         resultsPopover!.contentViewController = resultsViewController
+        
+    }
+    
+    @IBAction func showMenu(sender: NSButton?) {
+        let menu = NSMenu()
+        menu.addItemWithTitle("Reset", action: Selector("resetControls:"), keyEquivalent: "")
+        menu.addItemWithTitle("Quit Menubar d20", action: Selector("quitApp:"), keyEquivalent: "")
+        NSMenu.popUpContextMenu(menu, withEvent: NSApp.currentEvent!, forView: sender!)
+    }
+    
+    func resetControls(sender: AnyObject?) {
+        setSidesButtonByString("d20")
+        currentModifier = 0
+        modifierTextField.integerValue = 0
+        timesTextField.integerValue = 1
+        willChangeValueForKey("result")
+        result = 0
+        didChangeValueForKey("result")
+        closeResultsPopover(nil)
+    }
+    
+    func quitApp(sender: AnyObject?) {
+        NSApp.terminate(self)
+    }
+    
+    func setSidesButtonByString(name: String) {
+        for btn in sideButtons {
+            if btn.title == name {
+                btn.state = 1
+            } else {
+                btn.state = 0
+            }
+        }
     }
     
     @IBAction func sidesButtonSelected(sender: NSButton) {
-        for btn in sideButtons {
-            if btn.tag == 1 {
-                if btn == sender {
-                    btn.state = 1
-                    setSidesBasedOnButton(sender)
-                } else {
-                    btn.state = 0
-                }
-            }
-        }
+        setSidesButtonByString(sender.title)
     }
     
     func validateAndUpdateFields(){
