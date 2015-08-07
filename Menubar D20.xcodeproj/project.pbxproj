@@ -11,7 +11,7 @@
 		E9C318E21B742D3400C498C5 /* DiceResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C318E01B742D3400C498C5 /* DiceResultsViewController.swift */; };
 		E9C318E31B742D3400C498C5 /* DiceResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9C318E11B742D3400C498C5 /* DiceResultsViewController.xib */; };
 		E9C318E71B7432FF00C498C5 /* ResultsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C318E61B7432FF00C498C5 /* ResultsData.swift */; };
-		E9C318EB1B74449400C498C5 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C318EA1B74449400C498C5 /* EventMonitor.swift */; };
+		E9C318ED1B7444D400C498C5 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C318EC1B7444D400C498C5 /* EventMonitor.swift */; };
 		E9FEFAA81B74002A0091B698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEFAA71B74002A0091B698 /* AppDelegate.swift */; };
 		E9FEFAAA1B74002A0091B698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FEFAA91B74002A0091B698 /* Assets.xcassets */; };
 		E9FEFAAD1B74002A0091B698 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9FEFAAB1B74002A0091B698 /* MainMenu.xib */; };
@@ -35,7 +35,7 @@
 		E9C318E01B742D3400C498C5 /* DiceResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceResultsViewController.swift; sourceTree = "<group>"; };
 		E9C318E11B742D3400C498C5 /* DiceResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiceResultsViewController.xib; sourceTree = "<group>"; };
 		E9C318E61B7432FF00C498C5 /* ResultsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsData.swift; sourceTree = "<group>"; };
-		E9C318EA1B74449400C498C5 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		E9C318EC1B7444D400C498C5 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 		E9FEFAA41B74002A0091B698 /* Menubar D20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Menubar D20.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FEFAA71B74002A0091B698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9FEFAA91B74002A0091B698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 				E9C318E01B742D3400C498C5 /* DiceResultsViewController.swift */,
 				E9C318CA1B74051600C498C5 /* DiceRoller.swift */,
 				E9FEFAB61B7401860091B698 /* DiceRollerViewController.swift */,
-				E9C318EA1B74449400C498C5 /* EventMonitor.swift */,
+				E9C318EC1B7444D400C498C5 /* EventMonitor.swift */,
 				E9C318E61B7432FF00C498C5 /* ResultsData.swift */,
 				E9FEFAA91B74002A0091B698 /* Assets.xcassets */,
 				E9C318E11B742D3400C498C5 /* DiceResultsViewController.xib */,
@@ -209,7 +209,7 @@
 				E9C318E21B742D3400C498C5 /* DiceResultsViewController.swift in Sources */,
 				E9FEFAA81B74002A0091B698 /* AppDelegate.swift in Sources */,
 				E9FEFAB81B7401860091B698 /* DiceRollerViewController.swift in Sources */,
-				E9C318EB1B74449400C498C5 /* EventMonitor.swift in Sources */,
+				E9C318ED1B7444D400C498C5 /* EventMonitor.swift in Sources */,
 				E9C318E71B7432FF00C498C5 /* ResultsData.swift in Sources */,
 				E9C318CB1B74051600C498C5 /* DiceRoller.swift in Sources */,
 			);
