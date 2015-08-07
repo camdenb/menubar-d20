@@ -7,20 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9C318CB1B74051600C498C5 /* DiceRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C318CA1B74051600C498C5 /* DiceRoller.swift */; };
+		E9C318E21B742D3400C498C5 /* DiceResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C318E01B742D3400C498C5 /* DiceResultsViewController.swift */; };
+		E9C318E31B742D3400C498C5 /* DiceResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9C318E11B742D3400C498C5 /* DiceResultsViewController.xib */; };
+		E9C318E71B7432FF00C498C5 /* ResultsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C318E61B7432FF00C498C5 /* ResultsData.swift */; };
+		E9C318E91B743C8F00C498C5 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C318E81B743C8F00C498C5 /* EventMonitor.swift */; };
 		E9FEFAA81B74002A0091B698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEFAA71B74002A0091B698 /* AppDelegate.swift */; };
 		E9FEFAAA1B74002A0091B698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FEFAA91B74002A0091B698 /* Assets.xcassets */; };
 		E9FEFAAD1B74002A0091B698 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9FEFAAB1B74002A0091B698 /* MainMenu.xib */; };
+		E9FEFAB81B7401860091B698 /* DiceRollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEFAB61B7401860091B698 /* DiceRollerViewController.swift */; };
+		E9FEFAB91B7401860091B698 /* DiceRollerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9FEFAB71B7401860091B698 /* DiceRollerViewController.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E9C318D71B74060500C498C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9FEFA9C1B74002A0091B698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9FEFAA31B74002A0091B698;
+			remoteInfo = "Menubar D20";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		E9C318CA1B74051600C498C5 /* DiceRoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceRoller.swift; sourceTree = "<group>"; };
+		E9C318D21B74060500C498C5 /* Menubar D20Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Menubar D20Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C318E01B742D3400C498C5 /* DiceResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceResultsViewController.swift; sourceTree = "<group>"; };
+		E9C318E11B742D3400C498C5 /* DiceResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiceResultsViewController.xib; sourceTree = "<group>"; };
+		E9C318E61B7432FF00C498C5 /* ResultsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsData.swift; sourceTree = "<group>"; };
+		E9C318E81B743C8F00C498C5 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = ../EventMonitor.swift; sourceTree = "<group>"; };
 		E9FEFAA41B74002A0091B698 /* Menubar D20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Menubar D20.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FEFAA71B74002A0091B698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9FEFAA91B74002A0091B698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9FEFAAC1B74002A0091B698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E9FEFAAE1B74002A0091B698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FEFAB61B7401860091B698 /* DiceRollerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceRollerViewController.swift; sourceTree = "<group>"; };
+		E9FEFAB71B7401860091B698 /* DiceRollerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiceRollerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E9C318CF1B74060500C498C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9FEFAA11B74002A0091B698 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				E9FEFAA41B74002A0091B698 /* Menubar D20.app */,
+				E9C318D21B74060500C498C5 /* Menubar D20Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +85,15 @@
 			children = (
 				E9FEFAA71B74002A0091B698 /* AppDelegate.swift */,
 				E9FEFAA91B74002A0091B698 /* Assets.xcassets */,
+				E9C318E81B743C8F00C498C5 /* EventMonitor.swift */,
 				E9FEFAAB1B74002A0091B698 /* MainMenu.xib */,
 				E9FEFAAE1B74002A0091B698 /* Info.plist */,
+				E9FEFAB61B7401860091B698 /* DiceRollerViewController.swift */,
+				E9FEFAB71B7401860091B698 /* DiceRollerViewController.xib */,
+				E9C318CA1B74051600C498C5 /* DiceRoller.swift */,
+				E9C318E01B742D3400C498C5 /* DiceResultsViewController.swift */,
+				E9C318E11B742D3400C498C5 /* DiceResultsViewController.xib */,
+				E9C318E61B7432FF00C498C5 /* ResultsData.swift */,
 			);
 			path = "Menubar D20";
 			sourceTree = "<group>";
@@ -61,6 +101,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E9C318D11B74060500C498C5 /* Menubar D20Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C318D91B74060500C498C5 /* Build configuration list for PBXNativeTarget "Menubar D20Tests" */;
+			buildPhases = (
+				E9C318CE1B74060500C498C5 /* Sources */,
+				E9C318CF1B74060500C498C5 /* Frameworks */,
+				E9C318D01B74060500C498C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9C318D81B74060500C498C5 /* PBXTargetDependency */,
+			);
+			name = "Menubar D20Tests";
+			productName = "Menubar D20Tests";
+			productReference = E9C318D21B74060500C498C5 /* Menubar D20Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E9FEFAA31B74002A0091B698 /* Menubar D20 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9FEFAB11B74002A0091B698 /* Build configuration list for PBXNativeTarget "Menubar D20" */;
@@ -87,6 +145,10 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Camden Bickel";
 				TargetAttributes = {
+					E9C318D11B74060500C498C5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E9FEFAA31B74002A0091B698;
+					};
 					E9FEFAA31B74002A0091B698 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -106,16 +168,26 @@
 			projectRoot = "";
 			targets = (
 				E9FEFAA31B74002A0091B698 /* Menubar D20 */,
+				E9C318D11B74060500C498C5 /* Menubar D20Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E9C318D01B74060500C498C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9FEFAA21B74002A0091B698 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C318E31B742D3400C498C5 /* DiceResultsViewController.xib in Resources */,
 				E9FEFAAA1B74002A0091B698 /* Assets.xcassets in Resources */,
+				E9FEFAB91B7401860091B698 /* DiceRollerViewController.xib in Resources */,
 				E9FEFAAD1B74002A0091B698 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -123,15 +195,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E9C318CE1B74060500C498C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9FEFAA01B74002A0091B698 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C318E21B742D3400C498C5 /* DiceResultsViewController.swift in Sources */,
 				E9FEFAA81B74002A0091B698 /* AppDelegate.swift in Sources */,
+				E9FEFAB81B7401860091B698 /* DiceRollerViewController.swift in Sources */,
+				E9C318E91B743C8F00C498C5 /* EventMonitor.swift in Sources */,
+				E9C318E71B7432FF00C498C5 /* ResultsData.swift in Sources */,
+				E9C318CB1B74051600C498C5 /* DiceRoller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9C318D81B74060500C498C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9FEFAA31B74002A0091B698 /* Menubar D20 */;
+			targetProxy = E9C318D71B74060500C498C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E9FEFAAB1B74002A0091B698 /* MainMenu.xib */ = {
@@ -145,6 +237,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E9C318DA1B74060500C498C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Menubar D20Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.camdenbickel.Menubar-D20Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Menubar D20.app/Contents/MacOS/Menubar D20";
+			};
+			name = Debug;
+		};
+		E9C318DB1B74060500C498C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Menubar D20Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.camdenbickel.Menubar-D20Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Menubar D20.app/Contents/MacOS/Menubar D20";
+			};
+			name = Release;
+		};
 		E9FEFAAF1B74002A0091B698 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -252,6 +370,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E9C318D91B74060500C498C5 /* Build configuration list for PBXNativeTarget "Menubar D20Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C318DA1B74060500C498C5 /* Debug */,
+				E9C318DB1B74060500C498C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E9FEFA9F1B74002A0091B698 /* Build configuration list for PBXProject "Menubar D20" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -268,6 +394,7 @@
 				E9FEFAB31B74002A0091B698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
