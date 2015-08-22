@@ -112,7 +112,7 @@ class DiceRollerViewController: NSViewController {
                 currentNumberOfSides = 8
             case "d10":
                 currentNumberOfSides = 10
-            case "d10":
+            case "d12":
                 currentNumberOfSides = 12
             case "d20":
                 currentNumberOfSides = 20
